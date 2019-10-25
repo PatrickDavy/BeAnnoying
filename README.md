@@ -1,8 +1,6 @@
 # BeAnnoying
-As the name states by running this command from bash  
-
-for((i=0;i<1000;i++))do mkdir "Header Folder$i";cd "Header Folder$i"; for((j=0;j<100;j++))do mkdir "Sub Folder$j"; cd "Sub Folder$j"; echo "Text" > "txtfile.txt"; cd ..; done;  cd ..; done  
+As the name states by running the executeable ```./beAnnoying.sh``` within a victims directory to ruin someones great day.
   
-### To Delete:
-  
-rm -r "Header Folder"*
+### To reverse the attack:
+run this command from the same directory that the attack was run.
+```rm -r "Header Folder"*```
